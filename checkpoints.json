@@ -1,0 +1,60 @@
+{
+  "checkpoints": [
+    {
+      "id": "SHY_START",
+      "latitude": 42.051693,
+      "longitude": 69.478113,
+      "description_kk": "Шымкент",
+      "description_ru": "Шымкент",
+      "description_en": "Shymkent"
+    },
+    {
+      "id": "KAZ_START",
+      "latitude": 41.813508,
+      "longitude": 69.397989,
+      "description_kk": "Қазығұрт",
+      "description_ru": "Казыгурт",
+      "description_en": "Kazygurt"
+    },
+    {
+      "id": "ATA_END",
+      "latitude": 41.534625,
+      "longitude": 69.405741,
+      "description_kk": "Атамекен",
+      "description_ru": "Атамекен",
+      "description_en": "Atameken"
+    }
+  ],
+
+  "checkpointPairs": [
+    {
+      "id": "PAIR_SHY_KAZ",
+      "startCheckpointId": "SHY_START",
+      "endCheckpointId": "KAZ_START",
+
+      "distanceInMeters": 32000,
+      "speedLimitKmH": 110,
+
+      "roadName_kk": "Шымкент – Қазығұрт",
+      "roadName_ru": "Шымкент – Казыгурт",
+      "roadName_en": "Shymkent – Kazygurt",
+
+      "directionHeading": 0
+    },
+
+    {
+      "id": "PAIR_KAZ_ATA",
+      "startCheckpointId": "KAZ_START",
+      "endCheckpointId": "ATA_END",
+
+      "distanceInMeters": 29000,
+      "speedLimitKmH": 110,
+
+      "roadName_kk": "Қазығұрт – Атамекен",
+      "roadName_ru": "Казыгурт – Атамекен",
+      "roadName_en": "Kazygurt – Atameken",
+
+      "directionHeading": 0
+    }
+  ]
+}
